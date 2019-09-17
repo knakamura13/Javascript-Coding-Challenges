@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="" />
+    <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/001-multiples-of-3-and-5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/challenge-template.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Practice Problems/binaryGap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#!!block;n#runTests#0" />
-                <element signature="e#1623#2086#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,58 +23,31 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="82" />
-    <option name="y" value="138" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Coding Challenge Workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Development/webstorm-projects/Coding Challenge Workspace" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Coding Challenge Workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Development/webstorm-projects/Coding Challenge Workspace" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Coding Challenge Workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Development/webstorm-projects/Coding Challenge Workspace" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Interview Problems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Coding Challenge Workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Development/webstorm-projects/Coding Challenge Workspace" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Interview Problems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ALICE Technologies" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Coding Challenge Workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Documents/Development/webstorm-projects/Coding Challenge Workspace" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Practice Problems" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1QwV1YRywuathdSC7hoP1LxAePH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice Problems" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Practice Problems/project_euler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Practice Problems" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,12 +61,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.001-multiples-of-3-and-5.js">
+    <configuration name="001-multiples-of-3-and-5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/001-multiples-of-3-and-5.js" working-dir="$PROJECT_DIR$/Practice Problems">
+      <method v="2" />
+    </configuration>
     <configuration name="binaryGap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="binaryGap.js" working-dir="$PROJECT_DIR$/Practice Problems">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.001-multiples-of-3-and-5.js" />
         <item itemvalue="Node.js.binaryGap.js" />
       </list>
     </recent_temporary>
@@ -122,51 +86,30 @@
       <option name="presentableId" value="Default" />
       <updated>1558596220801</updated>
       <workItem from="1558596221900" duration="107000" />
-      <workItem from="1558596341912" duration="304000" />
+      <workItem from="1558596341912" duration="571000" />
+      <workItem from="1559510903825" duration="739000" />
+      <workItem from="1559627587591" duration="599000" />
+      <workItem from="1559666816664" duration="81000" />
+      <workItem from="1559666914219" duration="430000" />
+      <workItem from="1559713086333" duration="261000" />
+      <workItem from="1559717645791" duration="599000" />
+      <workItem from="1559778505503" duration="25000" />
+      <workItem from="1568681434053" duration="656000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2919786" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Practice Problems/binaryGap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#runTests#0" />
-            <element signature="e#1623#2086#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
