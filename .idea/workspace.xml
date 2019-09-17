@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/004-largest-palindrome-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/005-smallest-multiple.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +26,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Practice Problems/project_euler" />
@@ -37,6 +38,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.004-largest-palindrome-product.js">
+  <component name="RunManager" selected="Node.js.005-smallest-multiple.js">
     <configuration name="001-multiples-of-3-and-5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/001-multiples-of-3-and-5.js" working-dir="$PROJECT_DIR$/Practice Problems">
       <method v="2" />
     </configuration>
@@ -73,16 +75,16 @@
     <configuration name="004-largest-palindrome-product.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/004-largest-palindrome-product.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
-    <configuration name="binaryGap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="binaryGap.js" working-dir="$PROJECT_DIR$/Practice Problems">
+    <configuration name="005-smallest-multiple.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/005-smallest-multiple.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.005-smallest-multiple.js" />
         <item itemvalue="Node.js.004-largest-palindrome-product.js" />
         <item itemvalue="Node.js.003-largest-prime-factor.js" />
         <item itemvalue="Node.js.002-even-fibonacci-numbers.js" />
         <item itemvalue="Node.js.001-multiples-of-3-and-5.js" />
-        <item itemvalue="Node.js.binaryGap.js" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +107,7 @@
       <workItem from="1559713086333" duration="261000" />
       <workItem from="1559717645791" duration="599000" />
       <workItem from="1559778505503" duration="25000" />
-      <workItem from="1568681434053" duration="6616000" />
+      <workItem from="1568681434053" duration="9263000" />
     </task>
     <servers />
   </component>
@@ -122,5 +124,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
