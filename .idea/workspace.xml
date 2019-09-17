@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/005-smallest-multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/051-prime-digit-replacements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,10 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.005-smallest-multiple.js">
-    <configuration name="001-multiples-of-3-and-5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/001-multiples-of-3-and-5.js" working-dir="$PROJECT_DIR$/Practice Problems">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.051-prime-digit-replacements.js">
     <configuration name="002-even-fibonacci-numbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/002-even-fibonacci-numbers.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
@@ -78,13 +79,16 @@
     <configuration name="005-smallest-multiple.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/005-smallest-multiple.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
+    <configuration name="051-prime-digit-replacements.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/051-prime-digit-replacements.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.051-prime-digit-replacements.js" />
         <item itemvalue="Node.js.005-smallest-multiple.js" />
         <item itemvalue="Node.js.004-largest-palindrome-product.js" />
         <item itemvalue="Node.js.003-largest-prime-factor.js" />
         <item itemvalue="Node.js.002-even-fibonacci-numbers.js" />
-        <item itemvalue="Node.js.001-multiples-of-3-and-5.js" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +111,7 @@
       <workItem from="1559713086333" duration="261000" />
       <workItem from="1559717645791" duration="599000" />
       <workItem from="1559778505503" duration="25000" />
-      <workItem from="1568681434053" duration="9263000" />
+      <workItem from="1568681434053" duration="13029000" />
     </task>
     <servers />
   </component>
