@@ -10,10 +10,21 @@
     Find the sum of all the multiples of 3 or 5 below 1000.
  */
 function solution() {
-    let param1 = arguments[0];
-    let param2 = arguments[1];
+    // Define the integer that all numbers in the list should be lower than.
+    let max = arguments[0];
 
-    return "answer";
+    // Tracks the sum of multiples of 3 or 5 that are less than `max`.
+    let sum = 0;
+
+    // For each integer between 0 and `max`.
+    for (let i=1; i<max; i++) {
+        // If it is a multiple of 3 or 5.
+        if (i % 3 === 0 || i % 5 === 0)
+            // Add the number to the sum.
+            sum += i
+    }
+
+    return sum
 }
 
 function runTests(func, tests) {
@@ -40,11 +51,12 @@ runTests(
     func = solution,
     tests = [
         {   // 1
-            input: [
-                "parameter 1",
-                "parameter 2"
-            ],
-            answer: "answer"
+            input: [10],
+            answer: 23
+        },
+        {   // 2
+            input: [1000],
+            answer: 233168
         },
     ]
-);
+)

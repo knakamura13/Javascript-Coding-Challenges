@@ -8,7 +8,7 @@ function solution() {
     let param1 = arguments[0];
     let param2 = arguments[1];
 
-    return "answer";
+    return "answer"
 }
 
 function runTests(func, tests) {
@@ -21,14 +21,14 @@ function runTests(func, tests) {
 
         if (result === test.answer) {
             console.log(`${i + 1}: PASS (${test.input})`);
-            passed += 1;
+            passed += 1
         } else {
             console.log(`${i + 1}: FAIL (${test.input})  -->  (Got: ${result}, Expected: ${test.answer})`);
-            failed += 1;
+            failed += 1
         }
     }
 
-    console.log(`\n${passed} passed, ${failed} failed.`);
+    console.log(`\n${passed} passed, ${failed} failed.`)
 }
 
 runTests(
@@ -42,4 +42,4 @@ runTests(
             answer: "answer"
         },
     ]
-);
+)
