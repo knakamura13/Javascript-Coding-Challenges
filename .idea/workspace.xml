@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/051-prime-digit-replacements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/054-poker-hands-test-cases.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice Problems/project_euler/054-poker-hands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,10 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.051-prime-digit-replacements.js">
-    <configuration name="002-even-fibonacci-numbers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/002-even-fibonacci-numbers.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.054-poker-hands.js">
     <configuration name="003-largest-prime-factor.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/003-largest-prime-factor.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
@@ -82,13 +79,16 @@
     <configuration name="051-prime-digit-replacements.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/051-prime-digit-replacements.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
+    <configuration name="054-poker-hands.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/054-poker-hands.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.054-poker-hands.js" />
         <item itemvalue="Node.js.051-prime-digit-replacements.js" />
         <item itemvalue="Node.js.005-smallest-multiple.js" />
         <item itemvalue="Node.js.004-largest-palindrome-product.js" />
         <item itemvalue="Node.js.003-largest-prime-factor.js" />
-        <item itemvalue="Node.js.002-even-fibonacci-numbers.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,8 @@
       <workItem from="1559713086333" duration="261000" />
       <workItem from="1559717645791" duration="599000" />
       <workItem from="1559778505503" duration="25000" />
-      <workItem from="1568681434053" duration="13029000" />
+      <workItem from="1568681434053" duration="14232000" />
+      <workItem from="1568781703870" duration="14472000" />
     </task>
     <servers />
   </component>
@@ -123,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
