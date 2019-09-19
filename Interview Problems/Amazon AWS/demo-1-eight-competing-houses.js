@@ -27,12 +27,41 @@
         The elements of the list `states` contains 0s and 1s only.
  */
 function solution() {
-    const states = arguments[0],
-        days = arguments[1];
+    let states = arguments[0],
+        days = arguments[1],
+        tempStates = states.slice();    // Slice copies the array.
 
-    let finalStates = states;
+    // Once per day.
+    for (let day=0; day<days; day++) {
+        // Check the state of each house.
+        for (let i = 0; i < states.length; i++) {
+            // Get the states of the house and its two neighbors.
+            let curr = states[i],
+                prev = states[i - 1],
+                next = states[i + 1];
 
-    return finalStates.join(" ")
+            if (prev === undefined)
+                prev = 0;
+            if (next === undefined)
+                next = 0;
+
+            // Decide what to do with the current house.
+            if (prev === next) {
+                // Neighbors are equal.
+                tempStates[i] = 0;   // Current becomes inactive.
+            } else {
+                // Neighbors are different.
+                tempStates[i] = 1;   // Current becomes active.
+            }
+        }
+
+        // Replace the old states with the newly calculated states.
+        states = tempStates.slice();    // Slice copies the array.
+    }
+
+    // Return the final states as a string.
+    const finalStates = tempStates.join(" ");
+    return finalStates
 }
 
 function runTests(func, tests) {
@@ -64,6 +93,10 @@ runTests(
         },
         {   // 2
             input: [[1, 1, 1, 0, 1, 1, 1, 1], 2],
+            answer: "0 0 0 0 0 1 1 0"
+        },
+        {   // 3
+            input: [[1, 0, 1, 0, 1, 0, 0, 1], 1],
             answer: "0 0 0 0 0 1 1 0"
         },
     ]
