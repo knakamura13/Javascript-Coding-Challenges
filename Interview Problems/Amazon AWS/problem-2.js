@@ -3,10 +3,13 @@
     Test ID: 23280666374694
  */
 function solution() {
-    let arg1 = arguments[0],
+    const arg1 = arguments[0],
         arg2 = arguments[1];
 
     let solution = 0;
+
+    // Remember to comment.
+
 
     return solution
 }
