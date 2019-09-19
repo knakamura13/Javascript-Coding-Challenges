@@ -2,7 +2,7 @@
     Amazon Online Demo Assessment #2
 
     The greatest common divisor (GCD),
-    also called highest common factor (HCF) of N numbers
+    also called highest common factor (HCF) of N numbers,
     is the largest positive integer that divides all numbers without giving a remainder.
 
     Write an algorithm to determine the GCD of N positive integers.
@@ -15,17 +15,35 @@
         Returns     an integer representing the GCD of the given positive integers.
 
     Example
-        Input: 5, [2,4,6,8,20]
+        Input: 5, [2,4,6,8,10]
         Output: 2
         Explanation: The largest positive integer that divides all the positive integers 2, 4, 6, 8, 10
         without a remainder is 2. So, the output is 2.
  */
 function solution() {
-    const num = arguments[0],
-        arr = arguments[1];
+    // Sort the original list of numbers.
+    const arr = arguments[1].sort();
 
-    let greatestCommonDenominator = 1;
+    // Tracks the greatest common denominator of the list of numbers.
+    let greatestCommonDenominator = 0;
 
+    // From 1 to the smallest number.
+    for (let possibleDenominator=1; possibleDenominator<=arr.sort()[0]; possibleDenominator++) {
+        let dividesAll = true;
+
+        // From the first number to the last.
+        arr.forEach((number) => {
+            // Check if the number is divisible by this denominator.
+            if (number % possibleDenominator)
+                dividesAll = false;
+        });
+
+        // If the all the numbers are divisible by this denominator, update the greatest common denominator.
+        if (dividesAll && possibleDenominator > greatestCommonDenominator)
+            greatestCommonDenominator = possibleDenominator;
+    }
+
+    // Return the GCD of the list of numbers.
     return greatestCommonDenominator
 }
 
@@ -59,6 +77,10 @@ runTests(
         {   // 2
             input: [5, [2, 4, 6, 8, 10]],
             answer: 2
+        },
+        {   // 2
+            input: [5, [15, 30, 60, 120, 240]],
+            answer: 15
         },
     ]
 );

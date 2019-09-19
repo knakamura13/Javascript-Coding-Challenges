@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd41ffe-e834-420f-9e44-d85ea2ce092d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview Problems/Amazon AWS/demo-1-eight-competing-houses.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interview Problems/Amazon AWS/demo-1-eight-competing-houses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview Problems/Amazon AWS/demo-2-greatest-common-denominator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interview Problems/Amazon AWS/demo-2-greatest-common-denominator.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.demo-1-eight-competing-houses.js">
+  <component name="RunManager" selected="Node.js.demo-2-greatest-common-denominator.js">
     <configuration name="005-smallest-multiple.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Practice Problems/project_euler/005-smallest-multiple.js" working-dir="$PROJECT_DIR$/Practice Problems/project_euler">
       <method v="2" />
     </configuration>
@@ -91,8 +91,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.demo-1-eight-competing-houses.js" />
         <item itemvalue="Node.js.demo-2-greatest-common-denominator.js" />
+        <item itemvalue="Node.js.demo-1-eight-competing-houses.js" />
         <item itemvalue="Node.js.054-poker-hands.js" />
         <item itemvalue="Node.js.051-prime-digit-replacements.js" />
         <item itemvalue="Node.js.005-smallest-multiple.js" />
@@ -120,7 +120,7 @@
       <workItem from="1559778505503" duration="25000" />
       <workItem from="1568681434053" duration="14232000" />
       <workItem from="1568781703870" duration="14507000" />
-      <workItem from="1568838574244" duration="6576000" />
+      <workItem from="1568838574244" duration="7444000" />
     </task>
     <servers />
   </component>
