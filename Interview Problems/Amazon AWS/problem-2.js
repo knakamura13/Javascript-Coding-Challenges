@@ -1,5 +1,6 @@
 /*
     Amazon Assessment #2
+    Test ID: 23280666374694
  */
 function solution() {
     let arg1 = arguments[0],
