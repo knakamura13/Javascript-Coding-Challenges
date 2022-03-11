@@ -29,7 +29,7 @@ function solution() {
     // TODO: Implement back-tracking to prevent dead-end problems.
     let pathTraversed = [];
 
-    let minimumDistanceTraversed = 1;
+    let minimumDistanceTraversed = 0;
 
     // Traverse using breadth first search until the robot's position is at the obstacle.
     while (lot[robotState.position.y][robotState.position.x] !== 9 && minimumDistanceTraversed < 9999) {
@@ -42,19 +42,19 @@ function solution() {
 
         // Try to move down once.
         else if (lot[robotState.position.y + 1][robotState.position.x] !== 0 && lot[robotState.position.y + 1][robotState.position.x]) {
-            robotState.position.x += 1;
+            robotState.position.y += 1;
             console.log("moved down");
         }
 
         // Try to move left once.
         else if (lot[robotState.position.y][robotState.position.x - 1] !== 0 && lot[robotState.position.y][robotState.position.x - 1]) {
-            robotState.position.x += 1;
+            robotState.position.x -= 1;
             console.log("moved left");
         }
 
         // Try to move up once.
         else if (lot[robotState.position.y - 1][robotState.position.x] !== 0 && lot[robotState.position.y - 1][robotState.position.x]) {
-            robotState.position.x += 1;
+            robotState.position.y -= 1;
             console.log("moved up");
         }
 
@@ -102,6 +102,18 @@ runTests(
                 [1, 9, 1]
             ]],
             answer: 3
+        },
+        {   // 2
+            input: [7, 7, [
+                [1, 1, 1, 1, 1, 1, 0],
+                [0, 0, 0, 0, 0, 1, 0],
+                [0, 1, 1, 1, 0, 1, 0],
+                [0, 1, 0, 1, 1, 1, 0],
+                [0, 1, 0, 0, 0, 0, 0],
+                [0, 1, 1, 0, 1, 1, 1],
+                [0, 0, 1, 1, 1, 0, 9]
+            ]],
+            answer: 24
         },
     ]
 );
